@@ -22,4 +22,4 @@ Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 
 - ### [Vencord](https://github.com/Vendicated/Vencord)
   - go to vencord themes tab
-  - paste `https://raw.githubusercontent.com/eldritch-theme/betterdiscord/main/eldritch.theme.css` into the box
+  - paste `https://raw.githubusercontent.com/eldritch-theme/discord/refs/heads/master/eldritch.theme.css` into the box
