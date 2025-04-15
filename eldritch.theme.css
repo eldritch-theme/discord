@@ -7,29 +7,31 @@
  * @source https://raw.githubusercontent.com/eldritch-theme/betterdiscord/master/eldritch.theme.css
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/refs/heads/master/Themes/DiscordRecolor/DiscordRecolor.css");
 
 :root {
-  --accentcolor: 55,244,153;
-  --accentcolor2: 4,209,249;
-  --linkcolor: 164,140,242;
-  --mentioncolor: 250,166,26;
-  --textbrightest: 235,250,250;
-  --textbrighter: 211,225,225;
-  --textbright: 188,200,200;
-  --textdark: 164,175,175;
-  --textdarker: 141,150,150;
-  --textdarkest: 117,125,125;
-  --backgroundaccent: 55,244,153;
-  --backgroundprimary: 33,35,55;
-  --backgroundsecondary: 29,31,49;
-  --backgroundsecondaryalt: 33,35,55;
-  --backgroundtertiary: 50,52,73;
-  --backgroundfloating: 50,52,73;
-  --settingsicons: 1;
-  --channeltextarea-background: #323449 !important;
-  --background-modifier-selected: #37f499 !important;
-  --interactive-normal: #37f499 !important;
-  --channels-default: #04d1f9 !important;
+  --settingsicons: 0; /*  Use Settings Icons in User Settings: 1 = yes, 0 = no                           */
+
+  --accentcolor: 164, 140, 242; /*  Blurple          -  hex: #a48cf2     */
+  --accentcolor2: 242, 101, 181; /*  Boostpink        -  hex: #f265b5     */
+  --linkcolor: 4, 209, 249; /*  Link Color       -  hex: #04d1f9     */
+  --mentioncolor: 247, 198, 127; /*  Highlight Color  -  hex: #f7c67f     */
+  --successcolor: 55, 244, 153; /*  Success Color    -  hex: #37f499     */
+  --warningcolor: 241, 252, 121; /*  Warning Color    -  hex: #f1fc79     */
+  --dangercolor: 241, 108, 117; /*  Danger Color     -  hex: #f16c75     */
+
+  --textbrightest: 235, 250, 250; /*  Text Color 1     -  hex: #ebfafa     */
+  --textbrighter: 171, 180, 218; /*  Text Color 2     -  hex: #ABB4DA     */
+  --textbright: 112, 129, 208; /*  Text Color 3     -  hex: #7081d0     */
+  --textdark: 100, 115, 183; /*  Text Color 4     -  hex: #6473B7     */
+  --textdarker: 88, 102, 162; /*  Text Color 5     -  hex: #5866A2     */
+  --textdarkest: 59, 66, 97; /*  Text Color 6     -  hex: #3b4261     */
+
+  --backgroundaccent: 55, 244, 153; /*  hex: #37f499  */
+  --backgroundprimary: 33, 35, 55; /*  hex: #212337  */
+  --backgroundsecondary: 29, 31, 49; /*  hex: #1d1f31  */
+  --backgroundsecondaryalt: 33, 35, 55; /*  hex: #212337  */
+  --backgroundtertiary: 50, 52, 73; /*  hex: #323449  */
+  --backgroundfloating: 50, 52, 73; /*  hex: #323449  */
 }
