@@ -21,12 +21,12 @@
   --warningcolor: 241, 252, 121; /*  Warning Color    -  hex: #f1fc79     */
   --dangercolor: 241, 108, 117; /*  Danger Color     -  hex: #f16c75     */
 
+  --textbrighter: 245, 255, 255; /*  Text Color 2     -  hex: #f5ffff     */
+  --textbright: 240, 252, 252; /*  Text Color 3     -  hex: #f0fcfc     */
   --textbrightest: 235, 250, 250; /*  Text Color 1     -  hex: #ebfafa     */
-  --textbrighter: 171, 180, 218; /*  Text Color 2     -  hex: #ABB4DA     */
-  --textbright: 112, 129, 208; /*  Text Color 3     -  hex: #7081d0     */
-  --textdark: 100, 115, 183; /*  Text Color 4     -  hex: #6473B7     */
-  --textdarker: 88, 102, 162; /*  Text Color 5     -  hex: #5866A2     */
-  --textdarkest: 59, 66, 97; /*  Text Color 6     -  hex: #3b4261     */
+  --textdark: 180, 195, 195; /*  Text Color 4     -  hex: #b4c3c3     */
+  --textdarker: 125, 140, 140; /*  Text Color 5     -  hex: #7d8c8c     */
+  --textdarkest: 70, 85, 85; /*  Text Color 6     -  hex: #465555     */
 
   --backgroundaccent: 55, 244, 153; /*  hex: #37f499  */
   --backgroundprimary: 33, 35, 55; /*  hex: #212337  */
@@ -34,4 +34,9 @@
   --backgroundsecondaryalt: 33, 35, 55; /*  hex: #212337  */
   --backgroundtertiary: 50, 52, 73; /*  hex: #323449  */
   --backgroundfloating: 50, 52, 73; /*  hex: #323449  */
+  --background-surface-highest: 50, 52, 73 !important;
+  
+  li[class^="selected"] {
+    color: rgb(55, 244, 153) !important; /*  hex: #37f499  */
+  }
 }
