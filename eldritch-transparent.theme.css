@@ -29,8 +29,8 @@
   --textdarkest: 70, 85, 85; /*  Text Color 6     -  hex: #465555     */
 
   --backgroundaccent: 55, 244, 153; /*  hex: #37f499  */
-  --backgroundprimary: rgba(33, 35, 55, 0.5); /*  hex: #212337  */
-  --backgroundsecondary: 29, 31, 49; /*  hex: #1d1f31  */
+  --backgroundprimary: 33, 35, 55; /*  hex: #212337  */
+  --backgroundsecondary: rgba(29, 31, 49, 0.1); /*  hex: #1d1f31  */
   --backgroundsecondaryalt: 33, 35, 55; /*  hex: #212337  */
   --backgroundtertiary: 50, 52, 73; /*  hex: #323449  */
   --backgroundfloating: 50, 52, 73; /*  hex: #323449  */
