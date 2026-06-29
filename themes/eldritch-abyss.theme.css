@@ -1,0 +1,46 @@
+/*
+ * @name Eldritch Abyss
+ * @description A theme for the Ancient Ones!
+ * @author jacobrreed
+ * @version 1.0.1
+ * @website https://github.com/eldritch-theme/discord
+ * @source https://raw.githubusercontent.com/eldritch-theme/discord/master/themes/eldritch-abyss.theme.css
+ * @invite ZJHEEHUAju
+ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+:root {
+  --settingsicons: 0;
+
+  --accentcolor: 139, 117, 217;
+  --accentcolor2: 209, 84, 161;
+  --linkcolor: 3, 150, 179;
+  --mentioncolor: 212, 166, 102;
+  --successcolor: 45, 204, 130;
+  --warningcolor: 204, 214, 99;
+  --dangercolor: 204, 88, 96;
+
+  --framecolor: 151, 151, 159, 0.121;
+
+  --textbrightest: 216, 230, 230;
+  --textbrighter: 189, 204, 215;
+  --textbright: 162, 177, 199;
+  --textdark: 134, 151, 184;
+  --textdarker: 107, 124, 168;
+  --textdarkest: 80, 98, 153;
+
+  --backgroundcode: 71, 72, 82;
+  --backgroundaccent: 53, 55, 70;
+  --backgroundprimary: 23, 25, 40;
+  --backgroundsecondary: 23, 25, 40;
+  --backgroundsecondaryalt: 23, 25, 40;
+  --backgroundtertiary: 37, 39, 56;
+  --backgroundfloating: 71, 72, 82;
+
+  --background-surface-highest: 53, 55, 70 !important;
+}
+
+li[class^="selected"] {
+  color: rgb(var(--accentcolor)) !important;
+}
