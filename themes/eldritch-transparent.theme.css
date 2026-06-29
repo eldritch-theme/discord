@@ -1,11 +1,13 @@
-/**
- * @name Eldritch
- * @description A theme for the Ancient Ones! BetterDiscord
+/*
+ * @name Eldritch Transparent
+ * @description A theme for the Ancient Ones!
  * @author jacobrreed
- * @version 1.0.0
- * @website https://github.com/eldritch-theme/betterdiscord
- * @source https://raw.githubusercontent.com/eldritch-theme/betterdiscord/master/eldritch-transparent.theme.css
-*/
+ * @version 1.0.1
+ * @website https://github.com/eldritch-theme/discord
+ * @source https://raw.githubusercontent.com/eldritch-theme/discord/master/themes/eldritch-transparent.theme.css
+ * @invite ZJHEEHUAju
+ */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
 
@@ -22,5 +24,3 @@
   --backgroundCode: rgba(0 0 0 1);
   --backgroundName: rgba(0 0 0 1);
 }
-
-

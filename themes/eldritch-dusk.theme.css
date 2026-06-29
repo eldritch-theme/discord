@@ -1,0 +1,46 @@
+/*
+ * @name Eldritch Dusk
+ * @description A theme for the Ancient Ones!
+ * @author jacobrreed
+ * @version 1.0.1
+ * @website https://github.com/eldritch-theme/discord
+ * @source https://raw.githubusercontent.com/eldritch-theme/discord/master/themes/eldritch-dusk.theme.css
+ * @invite ZJHEEHUAju
+ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+:root {
+  --settingsicons: 0;
+
+  --accentcolor: 138, 105, 247;
+  --accentcolor2: 251, 91, 182;
+  --linkcolor: 91, 115, 220;
+  --mentioncolor: 255, 175, 77;
+  --successcolor: 56, 255, 159;
+  --warningcolor: 255, 175, 77;
+  --dangercolor: 251, 91, 102;
+
+  --framecolor: 151, 151, 159, 0.121;
+
+  --textbrightest: 30, 32, 41;
+  --textbrighter: 42, 49, 77;
+  --textbright: 54, 65, 113;
+  --textdark: 67, 82, 148;
+  --textdarker: 79, 98, 184;
+  --textdarkest: 91, 115, 220;
+
+  --backgroundcode: 201, 203, 205;
+  --backgroundaccent: 213, 217, 219;
+  --backgroundprimary: 240, 243, 244;
+  --backgroundsecondary: 240, 243, 244;
+  --backgroundsecondaryalt: 240, 243, 244;
+  --backgroundtertiary: 226, 230, 232;
+  --backgroundfloating: 201, 203, 205;
+
+  --background-surface-highest: 213, 217, 219 !important;
+}
+
+li[class^="selected"] {
+  color: rgb(var(--accentcolor)) !important;
+}
