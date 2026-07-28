@@ -2,7 +2,7 @@
  * @name Eldritch Cthulhu
  * @description A theme for the Ancient Ones!
  * @author jacobrreed
- * @version 1.0.1
+ * @version 1.0.2
  * @website https://github.com/eldritch-theme/discord
  * @source https://raw.githubusercontent.com/eldritch-theme/discord/master/themes/eldritch-cthulhu.theme.css
  * @invite ZJHEEHUAju
@@ -13,8 +13,8 @@
 :root {
   --settingsicons: 0;
 
-  --accentcolor: 164, 140, 242;
-  --accentcolor2: 242, 101, 181;
+  --accentcolor: 4, 209, 249;
+  --accentcolor2: 55, 244, 153;
   --linkcolor: 4, 209, 249;
   --mentioncolor: 247, 198, 127;
   --successcolor: 55, 244, 153;

@@ -2,7 +2,7 @@
  * @name Eldritch Dusk
  * @description A theme for the Ancient Ones!
  * @author jacobrreed
- * @version 1.0.1
+ * @version 1.0.2
  * @website https://github.com/eldritch-theme/discord
  * @source https://raw.githubusercontent.com/eldritch-theme/discord/master/themes/eldritch-dusk.theme.css
  * @invite ZJHEEHUAju
@@ -13,12 +13,12 @@
 :root {
   --settingsicons: 0;
 
-  --accentcolor: 138, 105, 247;
-  --accentcolor2: 251, 91, 182;
-  --linkcolor: 91, 115, 220;
-  --mentioncolor: 255, 175, 77;
+  --accentcolor: 251, 91, 182;
+  --accentcolor2: 138, 105, 247;
+  --linkcolor: 10, 214, 255;
+  --mentioncolor: 247, 198, 127;
   --successcolor: 56, 255, 159;
-  --warningcolor: 255, 175, 77;
+  --warningcolor: 247, 198, 127;
   --dangercolor: 251, 91, 102;
 
   --framecolor: 151, 151, 159, 0.121;
@@ -43,4 +43,8 @@
 
 li[class^="selected"] {
   color: rgb(var(--accentcolor)) !important;
+}
+
+#app-mount .wrapper_f61d60 {
+  color: rgb(var(--backgroundprimary));
 }
