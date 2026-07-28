@@ -2,7 +2,7 @@
  * @name Eldritch Abyss
  * @description A theme for the Ancient Ones!
  * @author jacobrreed
- * @version 1.0.1
+ * @version 1.0.2
  * @website https://github.com/eldritch-theme/discord
  * @source https://raw.githubusercontent.com/eldritch-theme/discord/master/themes/eldritch-abyss.theme.css
  * @invite ZJHEEHUAju
@@ -13,8 +13,8 @@
 :root {
   --settingsicons: 0;
 
-  --accentcolor: 139, 117, 217;
-  --accentcolor2: 209, 84, 161;
+  --accentcolor: 3, 150, 179;
+  --accentcolor2: 45, 204, 130;
   --linkcolor: 3, 150, 179;
   --mentioncolor: 212, 166, 102;
   --successcolor: 45, 204, 130;
